@@ -1,0 +1,54 @@
+.login-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.login-input {
+  padding: 15px;
+  box-shadow: 0 0 10px 0 rgb(77, 143, 97);
+  margin: auto;
+  border-radius: 6px;
+}
+.img-login {
+  width: 100%;
+  background-color: #46a68a;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+.img-login img {
+  width: 200px;
+}
+.emai,
+.password {
+  margin: 15px 10px;
+}
+.emai p,
+.password p {
+  margin: 8px 0px;
+}
+.login-input input {
+  width: 320px;
+  height: 35px;
+  font-size: 1rem;
+  /* border-radius: 2px; */
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  font-size: 1rem;
+  color: white;
+  border: none;
+  background: #46a68a;
+  padding: 7px 30px 10px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.btn button:active {
+  background: #2b7861;
+}

@@ -1,0 +1,38 @@
+.lab-type {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+.lab-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: scroll;
+}
+.lab-box::-webkit-scrollbar {
+  display: none;
+}
+.lab-box-itme {
+  margin: 5px 15px;
+  /* width: 200px; */
+  height: auto;
+  padding: 18px 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+.lab-box-itme img {
+  width: 65px;
+}
+.lab-box-itme:hover {
+  box-shadow: 0 0 12px 0 rgb(122, 121, 121);
+}
+.medicine-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.off-price {
+  color: red;
+  font-weight: 500;
+  min-width: max-content;
+  font-size: .85rem;
+}
